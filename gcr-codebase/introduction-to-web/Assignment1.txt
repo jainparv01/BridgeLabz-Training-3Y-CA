@@ -1,0 +1,145 @@
+ASSIGNMENT 1
+
+1. Difference between Frontend, Backend, and Full-Stack Development
+
+Frontend:
+Frontend is the part of a website that users can see and interact with.
+Example: Buttons, images, menus, login page of Amazon.
+
+Backend:
+Backend is the part that works behind the scenes. It manages data, authentication, and business logic.
+Example: Checking username and password during login.
+
+Full-Stack:
+A full-stack developer works on both frontend and backend.
+Example: Building a complete shopping website from UI to database.
+
+------------------------------------------------------------
+
+2. Client-Server Model Diagram
+
++---------+          Request          +-----------+
+| Client  | -----------------------> |  Server   |
+| Browser |                           |           |
+|         | <----------------------- |           |
++---------+         Response          +-----------+
+
+------------------------------------------------------------
+
+3. How a Browser Requests and Displays a Web Page
+
+1. User enters a website URL.
+2. Browser sends a request to the web server.
+3. Server processes the request.
+4. Server sends HTML, CSS, and JavaScript files.
+5. Browser renders the page and displays it to the user.
+
+------------------------------------------------------------
+
+4. Tools Required for Web Development
+
+1. VS Code - Code editor.
+2. Web Browser (Chrome/Edge) - To test websites.
+3. Git - Version control.
+4. GitHub - Store and share code online.
+5. Live Server Extension - Runs the website locally with auto-refresh.
+
+------------------------------------------------------------
+
+5. What is a Web Server?
+
+A web server stores website files and sends them to users when requested.
+
+Examples:
+- Apache
+- Nginx
+- Microsoft IIS
+- Node.js
+- LiteSpeed
+
+------------------------------------------------------------
+
+6. Roles in a Web Development Project
+
+Frontend Developer:
+Designs the user interface using HTML, CSS, and JavaScript.
+
+Backend Developer:
+Handles server-side logic, APIs, and database connections.
+
+Database Administrator (DBA):
+Manages the database, security, backups, and performance.
+
+------------------------------------------------------------
+
+7. VS Code Setup
+
+Installed:
+- VS Code
+- Live Server Extension
+
+Configured for:
+- HTML
+- CSS
+- JavaScript
+
+
+------------------------------------------------------------
+
+8. Static vs Dynamic Websites
+
+Static Website:
+Content remains the same for every user.
+Example: Portfolio website.
+
+Dynamic Website:
+Content changes based on user or database.
+Example: Facebook, Amazon, Instagram.
+
+------------------------------------------------------------
+
+9. Five Web Browsers and Their Rendering Engines
+
+Browser             Rendering Engine
+------------------------------------------
+Google Chrome       Blink
+Microsoft Edge      Blink
+Mozilla Firefox     Gecko
+Safari              WebKit
+Opera               Blink
+
+Difference:
+Rendering engines convert HTML, CSS, and JavaScript into the webpage shown on the screen. Different browsers use different engines, so webpages may render slightly differently.
+
+------------------------------------------------------------
+
+10. Basic Web Architecture Diagram
+
++---------+
+| Client  |
+| Browser |
++---------+
+     |
+     | Request
+     v
++---------+
+| Server  |
++---------+
+     |
+     | Uses APIs
+     v
++---------+
+|  APIs   |
++---------+
+     |
+     v
++-----------+
+| Database  |
++-----------+
+     ^
+     |
+ Response
+     |
++---------+
+| Client  |
++---------+
