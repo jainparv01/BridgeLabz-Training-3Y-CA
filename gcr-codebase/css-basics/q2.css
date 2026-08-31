@@ -1,0 +1,62 @@
+* { box-sizing: border-box; }
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: white;
+    background: #171717;
+}
+
+header {
+    padding: 22px 7%;
+    background: #3b1f2b;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+.section {
+    min-height: 100vh;
+    width: 100%;
+    padding: 20vh 10%;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.section h2 {
+    font-size: 3rem;
+    font-weight: 800;
+}
+
+.section p {
+    max-width: 700px;
+    font-size: 1.2rem;
+    line-height: 1.8;
+    padding: 25px;
+    border: 2px solid rgba(255,255,255,.6);
+}
+
+.history {
+    background: linear-gradient(135deg, #7b2cbf, #3a86ff);
+}
+
+.places {
+    background: radial-gradient(circle at center, #ff9f1c, #b23a48 65%, #3b1f2b);
+}
+
+.culture {
+    background: linear-gradient(rgba(0,0,0,.45), rgba(0,0,0,.45)), url("https://images.unsplash.com/photo-1477587458883-47145ed94245?auto=format&fit=crop&w=1600&q=80");
+}
+
+footer {
+    text-align: center;
+    padding: 25px;
+    background: #111;
+}

@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    background: #f5f1e8;
+    color: #222;
+    font-family: Georgia, serif;
+}
+
+header {
+    padding: 50px 10%;
+    background: #263238;
+    color: white;
+}
+
+header h1 { font-size: 3rem; margin-bottom: 10px; }
+
+main {
+    max-width: 850px;
+    margin: 40px auto;
+    padding: 0 25px;
+}
+
+article p {
+    margin: 0 0 28px;
+    line-height: 1.9;
+    font-size: 1.1rem;
+}
+
+article p::first-letter {
+    font-size: 2.8rem;
+    font-weight: bold;
+}
+
+article p::first-line {
+    font-weight: bold;
+}
+
+mark {
+    background: #ffd166;
+    padding: 2px 5px;
+}
+
+blockquote {
+    margin: 35px 0;
+    padding: 25px;
+    border-left: 6px solid #8d6e63;
+    background: #e6ded0;
+    font-style: italic;
+    line-height: 1.7;
+}

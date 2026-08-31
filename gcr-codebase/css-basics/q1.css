@@ -1,0 +1,89 @@
+/* Page uses flexbox so footer stays at the bottom. */
+* { box-sizing: border-box; }
+
+html { scroll-behavior: smooth; }
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #eef3f8;
+    color: #172033;
+}
+
+.page {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 70px;
+    padding: 12px 5%;
+    background: #172033;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 10;
+}
+
+header h1 { font-size: 1.5rem; }
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 24px;
+    font-size: 1em;
+}
+
+main {
+    flex: 1;
+    padding-top: 70px;
+}
+
+.hero {
+    min-height: 70vh;
+    width: 90%;
+    margin: 5vh auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 5%;
+}
+
+.hero div { width: 55%; }
+
+.hero h2 { font-size: 4vw; margin-bottom: 20px; }
+
+.hero p {
+    font-size: 1.2rem;
+    line-height: 1.7;
+}
+
+.hero img {
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    border: 6px solid #4f7cff;
+}
+
+.about {
+    width: 80%;
+    margin: 0 auto 5vh;
+    padding: 2em;
+    background: white;
+    border-radius: 12px;
+}
+
+.about h2 { font-size: 2rem; }
+
+footer {
+    padding: 20px;
+    text-align: center;
+    background: #172033;
+    color: white;
+}
