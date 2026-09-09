@@ -1,0 +1,11 @@
+* { box-sizing: border-box; }
+body { margin: 0; min-height: 100vh; font-family: Arial, sans-serif; background: #f8fafc; display: flex; align-items: center; justify-content: center; }
+main { width: min(1100px, 95%); text-align: center; }
+h1 { text-shadow: 2px 2px 4px #999; }
+.cards { display: flex; justify-content: center; gap: 30px; }
+.card { width: 30%; min-height: 180px; padding: 30px; background: white; border-radius: 15px; transition: all .35s ease; }
+.shadow1 { box-shadow: 0 5px 12px #bbb; }
+.shadow2 { box-shadow: 0 10px 25px #aaa; }
+.shadow3 { box-shadow: 8px 12px 30px #999; }
+.card:hover { transform: translateY(-12px); box-shadow: 0 20px 40px #888; }
+@media (max-width: 700px) { .cards { flex-direction: column; align-items: center; } .card { width: 90%; } }

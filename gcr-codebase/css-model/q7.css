@@ -1,0 +1,10 @@
+* { box-sizing: border-box; }
+body { margin: 0; background: #f8fafc; color: #1e293b; font-family: Georgia, serif; }
+article { max-width: 750px; margin: 70px auto; padding: 35px; background: white; border-radius: 16px; }
+h1 { font-family: Arial, sans-serif; font-size: 2.3em; font-weight: 700; letter-spacing: 2px; text-align: center; }
+.article-text { font-size: 1.15em; line-height: 1.8; letter-spacing: .4px; text-align: justify; }
+.article-text::first-letter { font-size: 3em; font-weight: bold; float: left; line-height: .8; }
+.article-text::first-line { font-weight: 600; }
+strong { color: #b91c1c; }
+em { color: #7c3aed; }
+mark { background: #fde68a; color: #78350f; padding: 2px 5px; }

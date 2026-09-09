@@ -1,0 +1,9 @@
+* { box-sizing: border-box; }
+body { margin: 0; font-family: Arial, sans-serif; background: #f1f5f9; }
+main { min-height: 100vh; display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; padding: 30px; }
+.demo { outline: 3px dashed #ef4444; background: #fecaca; padding: 35px; }
+.margin { background: #fde68a; padding: 30px; }
+.border { border: 15px solid #2563eb; padding: 25px; background: #bbf7d0; }
+.padding { background: #bbf7d0; padding: 25px; }
+.content { width: 220px; height: 100px; display: grid; place-items: center; background: white; border: 1px solid #334155; }
+p { max-width: 650px; margin: 5px; }

@@ -1,0 +1,25 @@
+* { box-sizing: border-box; }
+body { margin: 0; font-family: Arial, sans-serif; background: #f1f5f9; }
+main { max-width: 800px; margin: 60px auto; padding: 20px; }
+.panel { background: white; padding: 30px; border-radius: 15px; }
+/* Attribute selector */
+input[type="text"] { border: 2px solid #2563eb; }
+/* Attribute selector with prefix */
+a[href^="https"] { color: #16a34a; font-weight: bold; }
+/* Pseudo-classes */
+a:hover { text-decoration: none; background: #fde68a; }
+input:focus { outline: 3px solid #93c5fd; }
+li:nth-child(odd) { background: #e0f2fe; }
+/* Pseudo-elements */
+.note::before { content: "★ "; color: #f59e0b; }
+.note::after { content: " ✓"; color: #16a34a; }
+/* Child combinator > */
+.panel > ul { padding: 10px; }
+/* Adjacent sibling + */
+h1 + .panel { border-top: 5px solid #7c3aed; }
+/* General sibling ~ */
+.note ~ p { color: #64748b; }
+/* Descendant combinator */
+.panel li { padding: 8px; }
+input { display: block; width: 100%; margin: 12px 0; padding: 12px; border-radius: 8px; }
+a { display: inline-block; margin: 8px; }
