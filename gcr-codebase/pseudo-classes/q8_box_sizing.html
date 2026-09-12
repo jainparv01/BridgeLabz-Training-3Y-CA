@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Box Sizing Comparison</title>
+  <link rel="stylesheet" href="q8_box_sizing.css">
+</head>
+<body>
+  <header><h1>Box-Sizing Comparison</h1></header>
+  <main>
+    <div class="comparison">
+      <section><h2>Default: content-box</h2><div class="box content-box">Width: 300px<br>Padding: 30px<br>Border: 5px</div><p>Total outer width becomes 370px.</p></section>
+      <section><h2>border-box</h2><div class="box border-box">Width: 300px<br>Padding: 30px<br>Border: 5px</div><p>Total outer width stays 300px.</p></section>
+    </div>
+    <p class="note">With content-box, padding and borders are added to the declared width. With border-box, they are included inside the declared width.</p>
+  </main>
+</body>
+</html>
