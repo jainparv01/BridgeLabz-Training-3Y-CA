@@ -1,0 +1,10 @@
+* { box-sizing: border-box; }
+body { margin: 0; font-family: Arial, sans-serif; background: #eef2f7; }
+main { width: min(1100px, 92%); margin: auto; padding: 35px 0; text-align: center; }
+.comparison { display: flex; gap: 25px; }
+figure { flex: 1; margin: 0; background: white; padding: 12px; border-radius: 12px; }
+img { width: 100%; display: block; border-radius: 8px; }
+.filtered { filter: brightness(.65) contrast(1.4); transition: filter .5s ease; }
+.filtered:hover { filter: none; }
+figcaption { padding: 14px 5px; font-weight: 700; }
+@media (max-width: 700px) { .comparison { flex-direction: column; } }

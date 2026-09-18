@@ -1,0 +1,9 @@
+* { box-sizing: border-box; }
+body { margin: 0; font-family: Arial, sans-serif; background: #eef2f7; color: #172033; }
+main { width: min(1100px, 90%); margin: auto; padding: 45px 0; }
+h1 { text-align: center; margin-bottom: 35px; }
+.principles { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; }
+article { padding: 28px; background: white; border-radius: 14px; transition: background .4s ease, color .4s ease, transform .3s ease; }
+article:hover { background: linear-gradient(135deg, #172033, #355c8a); color: white; transform: translateY(-5px); }
+pre { white-space: pre-wrap; }
+@media (max-width: 600px) { .principles { grid-template-columns: 1fr; } }
