@@ -1,0 +1,5 @@
+:root { --bs-primary: #635bff; }
+body { font-family: system-ui, sans-serif; }
+.hero { background: linear-gradient(135deg, #f5f7ff, #ffffff); min-height: 70vh; display:flex; align-items:center; }
+.hero-card { background:#fff; border:1px solid #e8eaf5; }
+.hero-card .display-5 { color:#635bff; }

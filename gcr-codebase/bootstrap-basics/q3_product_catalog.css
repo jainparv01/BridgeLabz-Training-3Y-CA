@@ -1,0 +1,4 @@
+body { background:#f8f9fa; font-family:system-ui,sans-serif; }
+.product-card { transition: transform .25s ease, box-shadow .25s ease; border:0; overflow:hidden; }
+.product-card:hover { transform:translateY(-6px); box-shadow:0 1rem 2rem rgba(0,0,0,.12)!important; }
+.product-card img { height:190px; object-fit:cover; }

@@ -1,0 +1,4 @@
+body { font-family:system-ui,sans-serif; }
+.card { border-radius:18px; overflow:hidden; }
+.list-group-item { transition:background .2s ease; }
+.list-group-item:hover { background:#f8f9fa; }

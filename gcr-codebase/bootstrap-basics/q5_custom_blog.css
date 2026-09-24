@@ -1,0 +1,11 @@
+:root { --bs-primary:#7c3aed; --bs-font-sans-serif:'Manrope',sans-serif; --theme:#7c3aed; --theme-dark:#4c1d95; }
+body { font-family:var(--bs-font-sans-serif); background:#faf8ff; color:#20152f; }
+header { background:linear-gradient(135deg,#ede9fe,#faf8ff); }
+.brand { color:var(--theme-dark); }
+.theme-badge { background:var(--theme); }
+.theme-btn { background:var(--theme); color:white; border:0; }
+.theme-btn:hover { background:var(--theme-dark); color:white; }
+.card { transition:transform .25s ease; }
+.card:hover { transform:translateY(-5px); }
+.card-img-top { height:240px; object-fit:cover; }
+footer { background:#20152f; color:#fff; }
